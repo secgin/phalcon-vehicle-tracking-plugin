@@ -1,0 +1,28 @@
+{
+  "name": "secgin/phalcon-vehicle-tracking-plugin",
+  "description": "Vehicle Tracking Plugin For Phalcon Framework",
+  "autoload": {
+    "psr-4": {
+      "YG\\VehicleTracking\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "secgin"
+    }
+  ],
+  "require": {
+    "secgin/triomobil-api-library": "dev-main",
+    "secgin/arvento-api-library": "dev-main"
+  },
+  "require-dev": {
+    "phalcon/ide-stubs": "^4.1"
+  },
+  "repositories": {
+    "packagist.org": false,
+    "private-packagist": {
+      "type": "composer",
+      "url": "https://repo.packagist.com/entegrebilet/"
+    }
+  }
+}
