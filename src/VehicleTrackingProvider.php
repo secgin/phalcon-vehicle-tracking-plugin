@@ -7,7 +7,7 @@ use Phalcon\Di\ServiceProviderInterface;
 
 class VehicleTrackingProvider implements ServiceProviderInterface
 {
-    public function register(DiInterface $di)
+    public function register(DiInterface $di): void
     {
         $company = $di->get('config')->get('vehicleTrackingCompany');
 
